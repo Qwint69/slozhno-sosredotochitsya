@@ -199,21 +199,21 @@
 
 .header__heading {
   align-self: self-start;
-  margin: 15px 0 0;
+  /* margin: 15px 0 0; */
   text-shadow: 4px 4px 0 var(--accent-color);
 }
 
 @media (min-width: 768px) {
 
   .header__heading {
-    margin: 20px 0 0 -20px;
+    margin: 0 0 0 -20px;
   }
 }
 
 @media (min-width: 1024px) {
 
   .header__heading {
-    margin: 45px 0 0 -20px;
+    margin: 0 0 0 -20px;
     text-shadow: 4px 4px 0 var(--accent-color-big)
   }
 }
