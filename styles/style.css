@@ -4,8 +4,8 @@
   color: var(--text-color);
   font-size: 18px;
   background-image: var(--cover-image);
-  background-repeat: no-repeat;
-  background-position: center top;
+  /* background-repeat: no-repeat;
+  background-position: center top; */
   background-size: cover;
   background-attachment: fixed;
 }
@@ -140,7 +140,6 @@
 
 .header__theme-menu {
   justify-self: end;
-  margin: 5px 0 0;
 }
 
 .header__theme-menu-list {
@@ -199,7 +198,6 @@
 
 .header__heading {
   align-self: self-start;
-  /* margin: 15px 0 0; */
   text-shadow: 4px 4px 0 var(--accent-color);
 }
 
