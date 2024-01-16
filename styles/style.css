@@ -100,20 +100,20 @@
 
 .decorated-zone {
   position: relative;
-  min-block-size: 648px;
+  min-block-size: 668px;
 }
 
 @media (min-width: 768px) {
 
   .decorated-zone {
-    min-block-size: 984px;
+    min-block-size: 1024px;
   }
 }
 
 @media (min-width: 1024px) {
 
   .decorated-zone {
-    min-block-size: 748px;
+    min-block-size: 768px;
   }
 }
 
@@ -377,6 +377,19 @@
 
 .footer {
   display: grid;
+  min-block-size: 657px;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    min-block-size: 1004px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer {
+    min-block-size: 748px;
+  }
 }
 
 .footer__heading {
