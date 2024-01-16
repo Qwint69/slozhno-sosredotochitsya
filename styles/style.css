@@ -4,8 +4,8 @@
   color: var(--text-color);
   font-size: 18px;
   background-image: var(--cover-image);
-  /* background-repeat: no-repeat;
-  background-position: center top; */
+  background-repeat: no-repeat;
+  background-position: center top;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -100,7 +100,7 @@
 
 .decorated-zone {
   position: relative;
-  min-block-size: 668px;
+  min-block-size: 658px;
 }
 
 @media (min-width: 768px) {
@@ -176,6 +176,7 @@
   text-transform: lowercase;
   background-color: transparent;
   cursor: pointer;
+  align-items: center;
 
 }
 
