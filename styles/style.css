@@ -100,20 +100,20 @@
 
 .decorated-zone {
   position: relative;
-  min-block-size: 658px;
+  min-block-size: 648px;
 }
 
 @media (min-width: 768px) {
 
   .decorated-zone {
-    min-block-size: 1024px;
+    min-block-size: 984px;
   }
 }
 
 @media (min-width: 1024px) {
 
   .decorated-zone {
-    min-block-size: 768px;
+    min-block-size: 748px;
   }
 }
 
@@ -201,19 +201,20 @@
 .header__heading {
   align-self: self-start;
   text-shadow: 4px 4px 0 var(--accent-color);
+  margin: 15px 0 0;
 }
 
 @media (min-width: 768px) {
 
   .header__heading {
-    margin: 0 0 0 -20px;
+    margin: 20 0 0 -20px;
   }
 }
 
 @media (min-width: 1024px) {
 
   .header__heading {
-    margin: 0 0 0 -20px;
+    margin: 45 0 0 -20px;
     text-shadow: 4px 4px 0 var(--accent-color-big)
   }
 }
