@@ -1,7 +1,7 @@
 .page.theme_light {
   --accent-color: #ff8dcb;
   --accent-color-big: #ff0070;
-  --accent-color-background: #353430;
+  --accent-color-background:#fff1f7;
   --main-heading-color: #ffc2e6;
   --text-color: #353430;
   --button-hover-color: #353430;
@@ -17,7 +17,7 @@
   :root {
     --accent-color: #ff8dcb;
     --accent-color-big: #ff0070;
-    --accent-color-background: #353430;
+    --accent-color-background:#fff1f7;
     --main-heading-color: #ffc2e6;
     --text-color: #353430;
     --button-hover-color:#353430;
