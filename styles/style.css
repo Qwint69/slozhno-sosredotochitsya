@@ -69,11 +69,17 @@
 }
 }
 
-.header {
+.navbar {
   display: grid;
   padding: clamp(10px, 0.0286rem + 2.5445vw, 20px);
   min-block-size: 100vh;
 }
+
+/* .header {
+  display: grid;
+  padding: clamp(10px, 0.0286rem + 2.5445vw, 20px);
+  min-block-size: 100vh;
+} */
 
 .rec-icon {
   position: absolute;
