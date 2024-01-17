@@ -73,7 +73,6 @@
   display: grid;
   padding: clamp(10px, 0.0286rem + 2.5445vw, 20px);
   min-block-size: 100vh;
-  align-items: start;
 }
 
 .rec-icon {
@@ -194,7 +193,7 @@
 }
 
 .header__heading {
-  align-self: self-start;
+  text-shadow: 4px 4px 0 var( --accent-color)
 }
 
 @media (min-width: 1024px) {
@@ -208,9 +207,14 @@
   justify-self: end;
   margin-block: 55px;
   max-inline-size: 355px;
+  height: fit-content;
 }
 
 @media (min-width: 768px) {
+
+  .header__heading {
+    margin-left: -20px;
+  }
 
   .header__text {
     max-inline-size: 364px
