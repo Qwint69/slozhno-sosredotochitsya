@@ -10,6 +10,7 @@
   --rec-icon-color: transparent;
   --heading-color: #353430;
   --cover-image: url(../images/cover-image-light.png);
+  --title-decor-color: #353430;
 }
 
 @media (prefers-color-scheme: light) {
@@ -26,5 +27,6 @@
     --rec-icon-color: transparent;
     --heading-color: #353430;
     --cover-image: url(../images/cover-image-light.png);
+    --title-decor-color: #353430;
   }
 }

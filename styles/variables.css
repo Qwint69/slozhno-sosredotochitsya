@@ -13,6 +13,7 @@
   --headers-color: #ff0070;
   --rec-icon-color: #ff0070;
   --cover-image: url(../images/cover-image.png);
+  --title-decor-color: #000028;
   --gap: 20px;
   --main-font: 'IBM Plex mono';
 }

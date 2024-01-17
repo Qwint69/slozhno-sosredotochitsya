@@ -11,6 +11,7 @@
   --headers-color: #ff0070;
   --rec-icon-color: #ff0070;
   --cover-image: url(../images/cover-image-dark.png);
+  --title-decor-color:#000028;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -26,6 +27,7 @@
     --menu-color: #ff0070;
     --headers-color: #ff0070;
     --rec-icon-color: #ff0070;
+    --title-decor-color:#000028;
     --cover-image: url(../images/cover-image-dark.png);
   }
 }
