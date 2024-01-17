@@ -236,14 +236,14 @@
 
 .main {
   display: grid;
-  gap: 50px;
+  gap: 40px;
   padding: 40px 10px;
 }
 
 
 @media (min-width: 768px) {
   .main {
-    gap: 80px;
+    gap: 70px;
     padding: 60px 20px;
   }
 
