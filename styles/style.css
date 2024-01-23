@@ -1,4 +1,3 @@
-
 .page {
   font-size: 18px;
   line-height: 23.4px;
@@ -16,7 +15,8 @@
 
 .navbar {
   display: grid;
-  padding: clamp(10px, 0.0286rem + 2.5445vw, 20px);
+  /* padding: clamp(10px, 0.0286rem + 2.5445vw, 20px); */
+  padding: 10px;
   min-block-size: 100vh;
 }
 
@@ -89,7 +89,6 @@
 .decorated-zone::after {
   content: "";
   position: absolute;
-  z-index: -1;
   inline-size: 25px;
   block-size: 25px;
 }
@@ -97,25 +96,28 @@
 .decorated-zone::before {
   border-inline-end: 1px solid var(--bracket-color);
   border-block-start: 1px solid var(--bracket-color);
-  inset-inline-end: clamp(10px, 0.0286rem + 2.5445vw, 20px);
-  inset-block-start: clamp(10px, 0.0286rem + 2.5445vw, 20px);
+  /* inset-inline-end: clamp(10px, 0.0286rem + 2.5445vw, 20px);
+  inset-block-start: clamp(10px, 0.0286rem + 2.5445vw, 20px); */
+  inset-inline-end: 10px;
+  inset-block-start: 10px;
 }
 
 .decorated-zone::after {
   border-inline-start: 1px solid var(--bracket-color);
   border-block-end: 1px solid var(--bracket-color);
-  inset-inline-start: clamp(10px, 0.0286rem + 2.5445vw, 20px);
-  inset-block-end: clamp(10px, 0.0286rem + 2.5445vw, 20px);
+  /* inset-inline-start: clamp(10px, 0.0286rem + 2.5445vw, 20px);
+  inset-block-end: clamp(10px, 0.0286rem + 2.5445vw, 20px); */
+  inset-inline-start: 10px;
+  inset-block-end: 10px;
 }
 
 .rec-icon {
   position: absolute;
-  z-index: -1;
   visibility: var(--rec-icon-visibility);
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  inset-inline-end: 20px;
+  inset-inline-end: 19px;
   inset-block-start: 10px;
 }
 
@@ -214,9 +216,23 @@
 }
 
 @media (min-width: 768px) {
+  .navbar {
+    padding: 20px;
+  }
+
   .rec-icon {
     inset-inline-end: 28px;
     inset-block-start: 20px;
+  }
+
+  .decorated-zone::before {
+    inset-inline-end: 20px;
+    inset-block-start: 20px;
+  }
+
+  .decorated-zone::after {
+    inset-inline-start: 20px;
+    inset-block-end: 20px;
   }
 
   .header-main {
@@ -266,7 +282,6 @@
 
   .header-text {
     justify-self: end;
-    /* inline-size: clamp(364px, calc(100% / 2 - 10px), 491px); */
     inline-size: 364px;
   }
 
@@ -304,4 +319,3 @@
     flex-direction: row;
   }
 }
-
