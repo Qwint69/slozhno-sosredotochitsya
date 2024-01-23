@@ -254,7 +254,6 @@
   }
 
   .section {
-    /* grid-template-columns: max(236px, min(315px, calc(100% / 3.25))) 1fr; */
     grid-template-columns: 236px 1fr;
   }
 
@@ -308,7 +307,7 @@
   }
 
   .section {
-    column-gap: 30px;
+    column-gap: 20px;
     grid-template-columns: 315px 1fr;
   }
 
