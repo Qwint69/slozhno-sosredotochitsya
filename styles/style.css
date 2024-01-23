@@ -223,7 +223,7 @@
   }
 
   .section {
-    grid-template-columns: 236px 1fr;
+    grid-template-columns: clamp(236px, calc(100% / 3.25), 315px) 1fr;
   }
 
   .what-article-list {
@@ -281,7 +281,6 @@
 
   .section {
     column-gap: 30px;
-    grid-template-columns: 315px 1fr;
   }
 
   .what-article-list {
