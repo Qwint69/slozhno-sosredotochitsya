@@ -223,7 +223,6 @@
   }
 
   .section {
-    /* grid-template-columns: clamp(236px, calc(100% / 3.25), 315px) 1fr; */
     grid-template-columns: max(236px, min(315px, calc(100% / 3.25))) 1fr;
   }
 
@@ -266,7 +265,7 @@
 
   .header-text {
     justify-self: end;
-    inline-size: clamp(364px, calc(100% / 2 - 10px), 491px);
+    inline-size: clamp(364px, calc(100% / 2 - 20px), 491px);
   }
 
   .main {
