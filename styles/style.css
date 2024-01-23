@@ -212,7 +212,7 @@
   place-items: center;
 }
 
-@media (width >=768px) {
+@media (min-width: 768px) {
   .rec-icon {
     inset-inline-end: 28px;
     inset-block-start: 20px;
@@ -223,7 +223,7 @@
   }
 
   .section {
-    grid-template-columns: clamp(236px, calc(100% / 3.25), 315px) 1fr;
+    grid-template-columns: 236px 1fr;
   }
 
   .what-article-list {
@@ -274,13 +274,14 @@
   }
 }
 
-@media (width >=1024px) {
+@media (min-width: 1024px) {
   .header-main {
     text-shadow: 4px 4px 0 var(--accent-color-big);
   }
 
   .section {
     column-gap: 30px;
+    grid-template-columns: 315px 1fr;
   }
 
   .what-article-list {
