@@ -39,6 +39,7 @@
   font-size: inherit;
   line-height: inherit;
   background: var(--accent-color);
+  inline-size: 355px;
 }
 
 .header__theme-menu {
@@ -265,7 +266,8 @@
 
   .header-text {
     justify-self: end;
-    inline-size: clamp(364px, calc(100% / 2 - 20px), 491px);
+    /* inline-size: clamp(364px, calc(100% / 2 - 10px), 491px); */
+    inline-size: 364px;
   }
 
   .main {
@@ -285,6 +287,10 @@
 
   .what-article-list {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .header-text {
+    inline-size: 491px;
   }
 
   .header__theme-menu {
