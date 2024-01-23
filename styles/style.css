@@ -15,7 +15,6 @@
 
 .navbar {
   display: grid;
-  /* padding: clamp(10px, 0.0286rem + 2.5445vw, 20px); */
   padding: 10px;
   min-block-size: 100vh;
 }
@@ -96,8 +95,6 @@
 .decorated-zone::before {
   border-inline-end: 1px solid var(--bracket-color);
   border-block-start: 1px solid var(--bracket-color);
-  /* inset-inline-end: clamp(10px, 0.0286rem + 2.5445vw, 20px);
-  inset-block-start: clamp(10px, 0.0286rem + 2.5445vw, 20px); */
   inset-inline-end: 10px;
   inset-block-start: 10px;
 }
@@ -105,8 +102,6 @@
 .decorated-zone::after {
   border-inline-start: 1px solid var(--bracket-color);
   border-block-end: 1px solid var(--bracket-color);
-  /* inset-inline-start: clamp(10px, 0.0286rem + 2.5445vw, 20px);
-  inset-block-end: clamp(10px, 0.0286rem + 2.5445vw, 20px); */
   inset-inline-start: 10px;
   inset-block-end: 10px;
 }
