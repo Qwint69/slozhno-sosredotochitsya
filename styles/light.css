@@ -9,7 +9,7 @@
   --menu-color: #353430;
   --rec-icon-color: transparent;
   --title-decor-color: #353430;
-  --h2-heading-color:  #353430;
+  --title-color:  #353430;
   --cover-image: url(../images/cover-image-light.png);
   --rec-icon-visibility: hidden;
 }
@@ -27,7 +27,7 @@
     --menu-color: #353430;
     --rec-icon-color: transparent;
     --title-decor-color: #353430;
-    --h2-heading-color: #353430;
+    --title-color: #353430;
     --cover-image: url(../images/cover-image-light.png);
     --rec-icon-visibility: hidden;
   }

@@ -8,13 +8,13 @@
   --bracket-color: #ff0070;
   --menu-color: #ff0070;
   --rec-icon-color: #ff0070;
-  --h2-heading-color: #ff0070;
+  --title-color: #ff0070;
   --title-decor-color:#000028;
   --cover-image: url(../images/cover-image-dark.png);
   --rec-icon-visibility: "visible";
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --accent-color: #ff0070;
     --accent-color-big: #ff0070;
@@ -25,9 +25,9 @@
     --bracket-color: #ff0070;
     --menu-color: #ff0070;
     --rec-icon-color: #ff0070;
-    --h2-heading-color: #ff0070;
+    --title-color: #ff0070;
     --title-decor-color:#000028;
     --cover-image: url(../images/cover-image-dark.png);
     --rec-icon-visibility: visible;
   }
-}
+} */

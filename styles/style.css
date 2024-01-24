@@ -1,4 +1,5 @@
 .page {
+  font-family: var(--main-font), sans-serif;
   font-size: 18px;
   line-height: 23.4px;
   color: var(--text-color);
@@ -7,10 +8,6 @@
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-}
-
-.text-decor {
-  text-shadow: 4px 4px 0 var(--accent-color);
 }
 
 .navbar {
@@ -109,6 +106,7 @@
 .rec-icon {
   position: absolute;
   visibility: var(--rec-icon-visibility);
+  color: var(--accent-color);
   display: inline-flex;
   align-items: center;
   gap: 10px;
@@ -117,8 +115,7 @@
 }
 
 .rec-icon::before {
-  content: "REC";
-  color: var(--accent-color);
+  content: "";
   line-height: 26px;
 }
 
@@ -143,8 +140,8 @@
   gap: 20px;
 }
 
-.h2-heading {
-  color: var(--h2-heading-color);
+.title {
+  color: var(--title-color);
   font-weight: 700;
   font-size: inherit;
   line-height: inherit;
@@ -153,6 +150,10 @@
 .title-decor {
   color: var(--title-decor-color);
   background: var(--accent-color);
+}
+
+.title-advice {
+  font-weight: 400;
 }
 
 .article-list {
@@ -178,7 +179,7 @@
 }
 
 .accented-link:hover {
-  text-decoration: underline;
+  border-bottom: 1px solid currentColor;
 }
 
 .accented-link:focus {
@@ -208,6 +209,14 @@
 
 .footer {
   place-items: center;
+}
+
+.footer-decor {
+  color: var(--main-heading-color);
+  font-weight: 700;
+  font-size: var(--main-heading-mobile);
+  line-height: 82.5%;
+  text-shadow: 2px 2px 0 var(--accent-color);
 }
 
 @media (min-width: 768px) {
@@ -284,6 +293,10 @@
   .gallery__list-item:nth-child(3) {
     grid-row-start: span 2;
   }
+
+  .footer-decor {
+    font-size: var(--main-heading-desktop)
+  }
 }
 
 @media (min-width: 1024px) {
@@ -304,6 +317,7 @@
 
   .header__theme-menu-list {
     flex-direction: row;
+    gap: 10px;
   }
 
   .section {
@@ -317,5 +331,9 @@
 
   .gallery {
     grid-template-columns: 1fr;
+  }
+
+  .footer-decor {
+    text-shadow: 2px 2px 0 var(--accent-color-big);
   }
 }
