@@ -1,1 +1,1 @@
-https://github.com/Qwint69/slozhno-sosreedotochitsya
+https://github.com/Qwint69/slozhno-sosredotochitsya
