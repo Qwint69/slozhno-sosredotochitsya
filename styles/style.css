@@ -212,10 +212,6 @@
 }
 
 .footer-decor {
-  color: var(--main-heading-color);
-  font-weight: 700;
-  font-size: var(--main-heading-mobile);
-  line-height: 82.5%;
   text-shadow: 2px 2px 0 var(--accent-color);
 }
 
